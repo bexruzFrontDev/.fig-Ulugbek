@@ -1,0 +1,293 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.n-main {
+    height: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background: #F3FEFF;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+
+    .n-center {
+        display: flex;
+        gap: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #969999;
+    }
+
+    .nol {
+        color: #35AFBF;
+    }
+
+    button {
+        width: 120px;
+        height: 49px;
+        border-radius: 8px;
+        border: none;
+        background: #35AFBF;
+        color: white;
+
+    }
+
+}
+
+header {
+    width: 100%;
+    height: 80vh;
+    background: #F3FEFF;
+}
+
+.h-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+        font-size: 21px;
+    }
+
+    h1 {
+        font-size: 51px;
+    }
+
+    button {
+        width: 190px;
+        height: 62px;
+        border-radius: 8px;
+        border: none;
+        background: #35AFBF;
+        color: white;
+        gap: 10px;
+        margin: 40px 0;
+
+    }
+}
+
+.bir {
+    text-align: center;
+    margin-top: 200px;
+
+    p {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+}
+
+.card {
+
+    h2 {
+        font-size: 21px;
+        margin: 10px 0;
+    }
+
+    p {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+}
+
+.s-main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    margin-top: 200px;
+}
+
+.s1-left {
+    h1 {
+        font-size: 38px;
+        margin-top: 200px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .s1 {
+        margin: 10px 0;
+    }
+
+    button {
+        width: 149px;
+        height: 49px;
+        border-radius: 8px;
+        border: none;
+        border: 1px solid #35AFBF33;
+        margin: 30px 0;
+    }
+
+
+}
+
+.s1-right {
+    img {
+        margin: 100px;
+    }
+}
+
+.s1-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ikki {
+    text-align: center;
+    background: url(Background.jpg) no-repeat center/cover;
+    color: white;
+    width: 100%;
+    height: 550px;
+    padding-top: 150px;
+
+    img {
+        width: 93px;
+        height: 93px;
+        margin: 60px 0;
+    }
+
+    h2 {
+        font-size: 38px;
+        margin: 20px 0;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+.uch {
+    text-align: center;
+
+    h2 {
+        font-size: 38px;
+        margin-top: 150px;
+    }
+
+    p {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+}
+
+.besh-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin-top: 100px;
+    gap: 30px;
+
+    .card {
+        h5 {
+            margin: 20px 0;
+        }
+
+        p {
+            margin: 20px 0;
+            font-size: 16px;
+        }
+    }
+}
+
+.olti-main {
+    text-align: center;
+    background: #D1F4F9;
+
+
+    img {
+        margin: 50px 0;
+    }
+
+    p {
+        font-size: 32px;
+    }
+}
+
+.yetti {
+    h1 {
+        font-size: 38px;
+        margin-top: 150px;
+        text-align: center;
+    }
+
+    button {
+        background: #35AFBF;
+        color: white;
+        width: 162px;
+        height: 49px;
+        border-radius: 8opx;
+        border: none;
+        margin: 100px 0;
+        margin-left: 850px;
+
+    }
+}
+
+footer {
+    background: #2C353E;
+    color: white;
+}
+
+.f-main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+
+    h3 {
+        margin-top: 100px;
+    }
+
+    button {
+        width: 138px;
+        height: 49px;
+        border-radius: 8px;
+        border: 2px solid gray;
+        background-color: #2C353E;
+        color: white
+    }
+}
+
+.us-main {
+    height: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        color: white;
+        margin-top: 20px;
+    }
+
+    p {
+        margin: 20px 0;
+        font-size: 12px;
+    }
+}
